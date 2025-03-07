@@ -1,0 +1,21 @@
+{
+  "setup": {
+    "prefix": ["cpptemplate"],
+    "body": [
+        "#include <bits/stdc++.h>",
+        "",
+        "#define endl '\\n'",
+        "#define fore(i,x,y) for(int i=x;i<y;i++)",
+        "#define print_all(arr) fore(i,0,arr.size()) cout<<arr[i]<<\" \"; cout<<endl",
+        "#define FIN ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)",
+        "",
+        "using namespace std;",
+        "typedef long long ll;",
+        "",
+        "int main() {FIN;",
+        "    return 0;",
+        "}"
+    ],
+    "description": "My cpp setup"
+  }
+}
